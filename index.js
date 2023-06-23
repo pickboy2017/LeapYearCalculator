@@ -7,15 +7,15 @@ function isLeap(isLeapYear) {
   if (divideBy4 === true) {
     if (divideBy100 === true) {
       if (divideBy400 === true) {
-        console.log(isLeapYear + " IS a Leap Year");
+        return isLeapYear + " IS a Leap Year";
       } else {
-        console.log(isLeapYear + " is NOT a Leap Year");
+        return isLeapYear + " is NOT a Leap Year";
       }
     } else {
-      console.log(isLeapYear + " IS a Leap Year");
+      return isLeapYear + " IS a Leap Year";
     }
   } else {
-    console.log(isLeapYear + " is NOT a Leap Year");
+    return isLeapYear + " is NOT a Leap Year";
   }
 
   //return isLeap();
